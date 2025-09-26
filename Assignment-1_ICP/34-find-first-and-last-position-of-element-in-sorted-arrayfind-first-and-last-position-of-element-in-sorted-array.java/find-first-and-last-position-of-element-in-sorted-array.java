@@ -27,3 +27,7 @@ class Solution {
         return new int[]{f, s};
     }
 }
+/*
+TC: O(log n)
+SC: O(1)
+*/
