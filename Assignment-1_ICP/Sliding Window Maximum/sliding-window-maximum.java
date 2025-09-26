@@ -24,3 +24,8 @@ class Solution {
         return ans;
     }
 }
+
+/*
+TC: O(n)
+SC: O(k) (excluding the result array, which is required output).
+*/
