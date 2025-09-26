@@ -13,3 +13,7 @@ class Solution {
         return arrows;
     }
 }
+/*
+TC: O(n log n)
+SC: O(log n)
+*/
