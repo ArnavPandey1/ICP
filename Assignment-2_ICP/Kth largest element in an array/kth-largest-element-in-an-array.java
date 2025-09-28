@@ -10,3 +10,7 @@ class Solution {
         return pq.remove();
     }
 }
+/*
+Time Complexity: O(n log k)
+Space Complexity: O(k)
+    */
