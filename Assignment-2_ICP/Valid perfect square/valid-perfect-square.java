@@ -16,3 +16,7 @@ class Solution {
         return false;
     }
 }
+/*
+Time Complexity: O(log num)
+Space Complexity: O(1)
+    */
