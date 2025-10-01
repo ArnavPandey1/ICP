@@ -6,7 +6,6 @@ class Solution {
            char ch=s.charAt(r);
            if(!map.containsKey(ch)){
             map.put(ch,1);
-            max=Math.max(max,r-l+1);
            }
            else{
             while(s.charAt(l)!=ch){
@@ -17,6 +16,7 @@ class Solution {
             map.remove(ch);
             map.put(s.charAt(r),1);
            }
+           max=Math.max(max,r-l+1);
            r++;
         }
         return max;
