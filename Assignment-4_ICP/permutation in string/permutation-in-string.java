@@ -18,3 +18,7 @@ class Solution {
         return false;
     }
 }
+/*
+Time Complexity (TC): O(|s1| + |s2|)
+Space Complexity (SC): O(1)
+    */
