@@ -22,3 +22,7 @@ class Solution {
         return max;
     }
 }
+/*
+Time Complexity (TC): O(n)
+Space Complexity (SC): O(min(n, charset_size))
+    */
