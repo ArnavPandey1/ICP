@@ -30,3 +30,7 @@ class Solution {
         return l1;
     }
 }
+/*
+Time: Already optimal (O(m*n))
+Space: Already optimal (O(m*n) for output)
+*/
