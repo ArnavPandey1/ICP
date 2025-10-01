@@ -41,3 +41,7 @@ class Solution {
     return false;
 }
 }
+/*
+tc:O(logm+logn)
+sc:Only a few integer variables (lb, ub, mid) → O(1)
+    */
