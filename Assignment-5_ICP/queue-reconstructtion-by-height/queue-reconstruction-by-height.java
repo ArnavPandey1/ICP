@@ -12,3 +12,7 @@ class Solution {
         return l1.toArray(new int[people.length][]);
     }
 }
+/*
+Time Complexity: O(n^2)
+
+Space Complexity: O(n)*/
