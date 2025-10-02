@@ -15,3 +15,9 @@ class Solution {
         return l1.size();
     }
 }
+/*
+Time Complexity: O(n log n)
+
+Space Complexity (your version): O(n)
+
+Optimized version: O(1)*/
