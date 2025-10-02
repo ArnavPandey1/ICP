@@ -16,3 +16,11 @@ class Solution {
         return intervals.length-l1.size();
     }
 }
+/*
+Time Complexity: O(n log n)
+
+Space Complexity:
+
+Your version: O(n)
+
+Optimized version: O(1)*/
