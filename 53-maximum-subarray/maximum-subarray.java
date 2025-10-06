@@ -10,3 +10,7 @@ class Solution {
         return max;
     }
 }
+/*
+tc-o(n)
+sc-o(1)
+*/
