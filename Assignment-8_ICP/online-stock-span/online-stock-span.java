@@ -13,7 +13,9 @@ class StockSpanner {
         return c;
     }
 }
-
+/*
+tc-o(n)
+sc-o(n)
 /**
  * Your StockSpanner object will be instantiated and called as such:
  * StockSpanner obj = new StockSpanner();
