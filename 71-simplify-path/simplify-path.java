@@ -17,24 +17,24 @@ class Solution {
                 if (sb.length() == 1 && sb.charAt(0) == '.') {
                     continue;
                 } else if (sb.length() == 2 && sb.toString().equals("..")) {
-                    while(!st.isEmpty() && st.peek()=="/")
-                    st.pop();
-                    while(!st.isEmpty() && st.peek()!="/")
-                    st.pop();
                     if(!st.isEmpty())
-                    st.pop();
+                        st.pop();
+                    if(!st.isEmpty())
+                        st.pop();
+                    if (!st.isEmpty())
+                        st.pop();
 
                 } else {
                     st.push(sb.toString());
                 }
             }
         }
-        if (!st.isEmpty()&&st.peek() == "/")
+        if (!st.isEmpty() && st.peek() == "/")
             st.pop();
         StringBuilder s = new StringBuilder();
         for (String c : st) {
             s.append(c);
         }
-        return s.length()==0?"/":s.toString();
+        return s.length() == 0 ? "/" : s.toString();
     }
 }
