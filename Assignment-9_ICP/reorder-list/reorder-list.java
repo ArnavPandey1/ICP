@@ -24,3 +24,7 @@ class Solution {
        l1.get(n/2).next=null;
     }
 }
+/*
+tc-o(n)
+sc-o(n)
+    */
