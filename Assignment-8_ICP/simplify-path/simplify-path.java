@@ -38,3 +38,8 @@ class Solution {
         return s.length() == 0 ? "/" : s.toString();
     }
 }
+/*
+TC = O(n)
+
+SC = O(n)
+    */
