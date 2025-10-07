@@ -25,3 +25,8 @@ class Solution {
         return st.pop();
     }
 }
+/*
+TC: O(n)
+
+SC: O(n)
+*/
